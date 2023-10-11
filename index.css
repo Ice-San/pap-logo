@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+}
+
+.background-container {
+    background-image: url("./img/black-background.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
+.background-overlay {
+    background-color: rgb(0, 0, 0, 0.90);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: clamp(100px,17vw,350px);
+    height: clamp(100px,17vw,350px);
+}
+
+.logo-container {
+    background-image: url("./img/point.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: clamp(45px,9vw,150px);
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.45);
+
+    color: rgba(82,195,146,255)
+}
+
+span {
+    color: rgba(227,51,79,255);
+}
